@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+body {
+    margin-left: 2px;
+    background-color: rgb(66, 67, 97);
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url('WEB2.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: -2px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-right: 200px;
+}
+.titlebox {
+    flex-grow : 1
+}

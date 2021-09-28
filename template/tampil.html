@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hasil</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <h2>Tampil Data</h2><br>
+    -Hasil : <br>
+    {% autoescape false %}
+    {{ hasil }}<br>
+    {% endautoescape %}
+    -Jumlah : {{ jumlah }}
+</html>
